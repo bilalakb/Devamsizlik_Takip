@@ -1,0 +1,40 @@
+body {
+    background-color:black; /* BodynArka plan rengi */
+}
+.counter-container {
+    background-color: gray; /* Counter arka plan rengi */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 50px;
+}
+
+button{
+    background-color: green;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 25px;
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%; /* Yuvarlak butonlar */
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+p{
+    font-size: 16px; /* Metin boyutunu ayarla */
+    margin-bottom: 20px; /* Paragraflar arasında boşluk bırak */
+    padding: 10px; /* Paragraf içerisindeki boşlukları ayarla */
+    border: 1px solid white; /* Kenarlık ekle */
+    border-radius: 20px; /* Kenarları yuvarla */
+    max-width: 150px;
+}
+
+h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Başlık fontunu ayarla */
+    color: black; /* Başlık rengini ayarla */
+    background-color: white; /* Arka plan rengini ayarla */
+    padding: 10px; /* Başlık içerisindeki boşlukları ayarla */
+    border-radius: 30px; /* Kenarları yuvarla */
+}
